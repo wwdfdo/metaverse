@@ -1,13 +1,13 @@
 import "./App.css";
 
 import Header from "./components/Header/Header";
-import HeaderBg from "./components/HeaderBg/HeaderBg";
+// import HeaderBg from "./components/HeaderBg/HeaderBg";
 
 function App() {
   return (
     <div>
       <div>
-        <HeaderBg />
+        {/* <HeaderBg /> */}
         <Header />
       </div>
     </div>

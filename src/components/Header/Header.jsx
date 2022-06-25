@@ -1,25 +1,35 @@
 import React from "react";
-import Logo from "../Logo/Logo";
-import Cart from "../CartIcon/Cart";
+import NavBar from "../NavBar/Navbar";
+import "./Header.css";
+import desktoplogo from "../../images/logo-big.webp";
+import { BsFillPlayFill } from "react-icons/bs";
 
 const Header = () => {
   return (
-    <header>
+    <header className=" bg-mainBg bg-cover h-[100vh]">
       <div>
-        <nav className=" flex w-3/4 justify-between mx-auto min-h-[64px] items-center ">
-          <div className="flex justify-between gap-12 items-center">
-            <Logo />
-            <div className="flex gap-10">
-              <div> About</div>
-              <div>Tournaments</div>
-              <div>Buy NFTs</div>
-              <div>$WZRD Token</div>
-              <div>Patners</div>
+        <NavBar />
+        <div className="w-3/5 mx-auto flex flex-col justify-center items-center py-20">
+          <img src={desktoplogo} className="w-[300px]" alt="" />
+          <h1 className="text-center tracking-wide leading-snug">
+            METAVERSE P2E GAME
+            <br />
+            WITH MAGIC REWARDS
+          </h1>
+          <p className="py-10 text-4xl">Buy Arena Genesis NFTs now</p>
+          <div className="flex gap-5 justify-center items-center w-3/5">
+            <div className=" border-2 border-white px-8 py-3 w-1/3 text-center rounded-3xl">
+              Buy Arena NFTs
+            </div>
+            <div className=" border-2 border-white px-8 py-3 w-1/3 text-center rounded-3xl">
+              Play tailer{" "}
+              <span>
+                {" "}
+                <BsFillPlayFill className="inline-block text-2xl" />
+              </span>
             </div>
           </div>
-
-          <Cart />
-        </nav>
+        </div>
       </div>
     </header>
   );
