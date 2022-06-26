@@ -5,6 +5,7 @@ module.exports = {
     extend: {
       backgroundImage: {
         mainBg: "url('/src/images/headerbg.webp')",
+        ladybg: "url('/src/images/lady.webp')",
       },
     },
   },

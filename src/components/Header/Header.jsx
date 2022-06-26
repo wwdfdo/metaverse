@@ -6,7 +6,7 @@ import { BsFillPlayFill } from "react-icons/bs";
 
 const Header = () => {
   return (
-    <header className=" bg-mainBg bg-cover h-[100vh]">
+    <header>
       <div>
         <NavBar />
         <div className="w-3/5 mx-auto flex flex-col justify-center items-center py-20">
@@ -18,10 +18,10 @@ const Header = () => {
           </h1>
           <p className="py-10 text-4xl">Buy Arena Genesis NFTs now</p>
           <div className="flex gap-5 justify-center items-center w-3/5">
-            <div className=" border-2 border-white px-8 py-3 w-1/3 text-center rounded-3xl">
+            <div className=" border-2 glow-button border-white px-8 py-3 w-1/3 text-center rounded-3xl cursor-pointer">
               Buy Arena NFTs
             </div>
-            <div className=" border-2 border-white px-8 py-3 w-1/3 text-center rounded-3xl">
+            <div className=" border-2 border-white px-8 py-3 w-1/3 text-center rounded-3xl cursor-pointer">
               Play tailer{" "}
               <span>
                 {" "}
