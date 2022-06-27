@@ -23,6 +23,7 @@ const SecondSection = () => {
           </p>
         </div>
       </div>
+      <div></div>
     </div>
   );
 };
