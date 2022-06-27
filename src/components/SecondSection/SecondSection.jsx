@@ -23,7 +23,13 @@ const SecondSection = () => {
           </p>
         </div>
       </div>
-      <div></div>
+      <div>
+        <div className="flex flex-col items-center mx-auto gap-6">
+          <p className="text-4xl">BUY ARENA NFTS</p>
+          <h2 className="text-7xl">AND WIN</h2>
+        </div>
+        <div></div>
+      </div>
     </div>
   );
 };
