@@ -4,7 +4,7 @@ import { IoIosArrowForward } from "react-icons/io";
 
 const SecondSection = () => {
   return (
-    <div className=" bg-ladybg  bg-cover min-h-[100vh]">
+    <div className=" bg-ladybg bg-cover min-h-[100vh]">
       <div>
         <div className="flex flex-col justify-center gap-6 items-center py-20">
           <p className="text-3xl">6th NFT sale round</p>
