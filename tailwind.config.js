@@ -6,6 +6,7 @@ module.exports = {
       backgroundImage: {
         mainBg: "url('/src/images/headerbg.webp')",
         ladybg: "url('/src/images/lady.webp')",
+        tournamentsBg: "url('/src/images/tournaments.png')",
       },
     },
   },
