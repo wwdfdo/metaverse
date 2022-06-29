@@ -1,0 +1,51 @@
+.nftcards {
+  position: absolute;
+  width: 80%;
+  left: 50%;
+  top: 60%;
+  transform: translate(-50%, -50%);
+}
+.nftcards2 {
+  position: absolute;
+  width: 80%;
+  left: 50%;
+  top: 60%;
+  transform: translate(-50%, -50%);
+}
+.nftcards3 {
+  position: absolute;
+  width: 80%;
+  left: 50%;
+  top: 60%;
+  transform: translate(-50%, -50%);
+}
+
+.nftcardborder {
+  width: 270px;
+  height: 350px;
+  border-width: 1px;
+  border-style: solid;
+  border-radius: 50px 10px 10px 10px;
+  position: relative;
+}
+
+.halfcircle {
+  position: absolute;
+  width: 250px;
+  height: 150px;
+  border: 1.2px solid red;
+  border-bottom: none;
+  border-radius: 200px 200px 0 0;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.cardText {
+  position: absolute;
+  width: 80%;
+  left: 50%;
+  bottom: 5%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}

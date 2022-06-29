@@ -1,0 +1,25 @@
+.buytokenframe {
+  width: 600px;
+  height: 600px;
+  border-width: 1px;
+  border-style: solid;
+  border-radius: 50px 10px 10px 10px;
+  position: relative;
+}
+
+.nftbackgroundwrapper {
+  flex: 1.5;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.nftbackground {
+  transform: scaleX(-1) translateX(0px) !important;
+  position: absolute;
+  top: 0;
+  height: 100%;
+  left: 0;
+}
