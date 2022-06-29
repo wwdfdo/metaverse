@@ -1,0 +1,8 @@
+.buttonCenter {
+  position: absolute;
+  width: 30%;
+  left: 50%;
+  bottom: 0%;
+  margin-bottom: -10%;
+  transform: translate(-50%, -50%);
+}
