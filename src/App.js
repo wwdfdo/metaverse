@@ -2,6 +2,7 @@ import "./App.css";
 import Community from "./components/Community/Community";
 
 import Header from "./components/Header/Header";
+import Immerse from "./components/Immerse/Immerse";
 import SecondSection from "./components/SecondSection/SecondSection";
 // import HeaderBg from "./components/HeaderBg/HeaderBg";
 
@@ -13,6 +14,7 @@ function App() {
         <Header />
         <SecondSection />
         <Community />
+        <Immerse />
       </div>
     </div>
   );
