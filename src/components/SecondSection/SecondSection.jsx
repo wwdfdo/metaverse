@@ -4,7 +4,7 @@ import { IoIosArrowForward } from "react-icons/io";
 
 import NftCards from "../NftCards/NftCards";
 import Tournaments from "../Tournaments/Tournaments";
-import BuyNftTokens from "../BuyNftTokens/BuyNftTokens";
+// import BuyNftTokens from "../BuyNftTokens/BuyNftTokens";
 
 const SecondSection = () => {
   return (
@@ -30,7 +30,7 @@ const SecondSection = () => {
       <div>
         <NftCards />
         <Tournaments />
-        <BuyNftTokens />
+        {/* <BuyNftTokens /> */}
       </div>
     </div>
   );

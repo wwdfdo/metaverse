@@ -1,4 +1,5 @@
 import "./App.css";
+import Community from "./components/Community/Community";
 
 import Header from "./components/Header/Header";
 import SecondSection from "./components/SecondSection/SecondSection";
@@ -11,6 +12,7 @@ function App() {
         {/* <HeaderBg /> */}
         <Header />
         <SecondSection />
+        <Community />
       </div>
     </div>
   );
