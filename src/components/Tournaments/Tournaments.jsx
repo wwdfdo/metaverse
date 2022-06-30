@@ -34,14 +34,14 @@ const Tournaments = () => {
               <div>
                 Notify me when <br /> Tournaments launch:
               </div>
-              <div className="w-3/5 relative flex justify-between bg-red-300 py-1 px-3 rounded-3xl">
+              <div className="w-3/5 relative flex justify-between border-2 border-white py-0 px-0 rounded-full">
                 <input
                   type="text"
-                  className="py-3 rounded-3xl border-none w-4/5 text-black bg-transparent outline-none"
+                  className="py-5 px-4 text-xl rounded-full border-none w-4/5 text-white bg-transparent outline-none"
                 ></input>
                 <input
                   type="submit"
-                  className="rounded-3xl text-black bg-yellow-200 px-5 "
+                  className="rounded-full text-white font-semibold text-xl glow-button border-l-[1px] border-l-white px-6 "
                 ></input>
               </div>
             </div>
