@@ -7,7 +7,7 @@ import { MdOutlineKeyboardArrowRight } from "react-icons/md";
 
 const MagicRewards = () => {
   return (
-    <div className="w-4/5 mx-auto">
+    <div className="w-4/5 mx-auto pt-40 pb-80">
       <h2 className="w-[500px] text-6xl leading-normal">
         METAVERSE P2E GAME WITH MAGIC REWARDS
       </h2>

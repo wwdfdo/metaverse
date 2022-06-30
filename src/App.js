@@ -1,4 +1,5 @@
 import "./App.css";
+import Advisors from "./components/Advisors/Advisors";
 import BigImage from "./components/BigImage/BigImage";
 import Community from "./components/Community/Community";
 
@@ -7,6 +8,7 @@ import ImageWithText from "./components/ImageWithText/ImageWithText";
 import Immerse from "./components/Immerse/Immerse";
 import MagicRewards from "./components/MagicRewards/MagicRewards";
 import SecondSection from "./components/SecondSection/SecondSection";
+import Team from "./components/Team/Team";
 import TwoMainImages from "./components/TwoMainImages/TwoMainImages";
 import VideoImage from "./components/VideoImage/VideoImage";
 
@@ -26,6 +28,8 @@ function App() {
         <ImageWithText />
         <VideoImage />
         <MagicRewards />
+        <Team />
+        <Advisors />
       </div>
     </div>
   );

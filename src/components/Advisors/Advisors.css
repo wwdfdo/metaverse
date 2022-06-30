@@ -1,0 +1,6 @@
+.dotted-spaced2 {
+  background-image: linear-gradient(to right, #fff 10%, #131013 0%);
+  background-position: top;
+  background-size: 10px 3px;
+  background-repeat: repeat-x;
+}
