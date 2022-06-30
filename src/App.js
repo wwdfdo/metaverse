@@ -5,6 +5,7 @@ import Community from "./components/Community/Community";
 import Header from "./components/Header/Header";
 import ImageWithText from "./components/ImageWithText/ImageWithText";
 import Immerse from "./components/Immerse/Immerse";
+import MagicRewards from "./components/MagicRewards/MagicRewards";
 import SecondSection from "./components/SecondSection/SecondSection";
 import TwoMainImages from "./components/TwoMainImages/TwoMainImages";
 import VideoImage from "./components/VideoImage/VideoImage";
@@ -24,6 +25,7 @@ function App() {
         <BigImage />
         <ImageWithText />
         <VideoImage />
+        <MagicRewards />
       </div>
     </div>
   );
