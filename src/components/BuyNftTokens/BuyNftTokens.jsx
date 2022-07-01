@@ -1,13 +1,27 @@
 import React from "react";
 import "./BuyNftTokens.css";
 import buytokenimg from "../../images/image6.webp";
+import petro1 from "../../images/1-legendary-petro.webp";
+import buytokenimg1 from "../../images/buytokenimg1.webp";
+import buytokenimg2 from "../../images/buytokenimg2.webp";
+import buytokenimg3 from "../../images/buytokenimg3.webp";
+import buytokenimg4 from "../../images/buytokenimg4.webp";
+import soul from "../../images/soul.svg";
 
 const BuyNftTokens = () => {
   return (
-    <div className="flex flex-col  gap-5 justify-center">
+    <div className="flex flex-col  gap-5 justify-center pb-60">
+      <h2 className="text-center text-5xl pb-20">
+        BUY WIZARDIA NFTS AND TOKENS
+      </h2>
       <div className="flex gap-5 justify-center">
-        <div className="buytokenframe border-red-400 flex justify-between">
-          <div className="w-[40%] flex flex-col items-center justify-around">
+        <div className="buytokenframe border-white hover:border-[#0a9996] flex justify-between relative overflow-hidden">
+          <img
+            src={buytokenimg}
+            className="absolute h-full left-[50%]"
+            alt=""
+          />
+          <div className="w-[40%] flex flex-col items-center justify-around absolute gap-10 top-[10%] left-8">
             <div className="w-2/3">
               <p>Arena Genesis NFTs</p>
               <p>
@@ -19,24 +33,98 @@ const BuyNftTokens = () => {
             <div>
               <div className="h-[200px] w-[200px] border-[2px] border-dotted rounded-[100px] border-white ">
                 <div className=" m-2 h-[180px] w-[180px]  border-2 border-dashed border-white rounded-full">
-                  <div className="flex flex-col justify-center items-center my-[30%] text-[#0a9996] text-lg font-semibold"></div>
+                  <div className="flex flex-col justify-center items-center my-[30%]   text-lg font-semibold"></div>
                 </div>
               </div>
             </div>
           </div>
-          <div className="nftbackgroundwrapper">
-            <img src={buytokenimg} className="nftbackground" alt="" />
+          <div className="nftbackgroundwrapper relative">
             <div
-              className="glow-button text-center font-semibold text-lg w-2/3 mx-auto absolute bottom-10 left-10 border-[1px] py-2 rounded-2xl 
+              className="glow-button text-center font-semibold text-lg w-[200px] right-0 mr-[45px] mx-auto absolute bottom-10 left-10 border-[1px] py-2 rounded-2xl 
             hover:text-[#0a9996]  "
             >
               Learn More
             </div>
           </div>
         </div>
-        <div className="buytokenframe border-red-400"></div>
+        <div className="buytokenframe border-white hover:border-[#0a9996] ">
+          <div className="flex flex-col gap-12 w-5/6 mx-auto justify-center items-center py-10">
+            <div className="flex gap-12">
+              <div>
+                {" "}
+                <div className="h-[200px] w-[200px] border-[2px] border-dotted rounded-[100px] border-white ">
+                  <div className=" m-2 h-[180px] w-[180px]  border-2 border-dashed border-white rounded-full">
+                    <div className="flex flex-col justify-center items-center my-[30%]   text-lg font-semibold"></div>
+                  </div>
+                </div>
+              </div>
+              <div className="flex flex-col items-center justify-center">
+                <p className="text-xl font-semibold">
+                  UP TO 114% APY STAKING REWARDS
+                </p>
+                <p>
+                  Secure your $WZRD tokens now and stake with us. Staking pools
+                  are strictly limited, so don't miss out.
+                </p>
+              </div>
+            </div>
+            <div className="flex gap-16">
+              <div className="w-[220px] border-2 text-center py-5 rounded-full glow-button font-semibold">
+                Buy at gate.io
+              </div>
+              <div className="w-[220px] border-2 text-center py-5 rounded-full glow-button font-semibold">
+                Buy at PancakeSwap
+              </div>
+            </div>
+            <div>or</div>
+            <div className="w-[220px] border-2 text-center py-4 rounded-full glow-button font-semibold">
+              Stake tokens to earn more
+            </div>
+          </div>
+        </div>
       </div>
-      <div></div>
+      <div className="flex justify-center gap-6 w-full">
+        <div className="nftcardborder2 border-white hover:border-[#0a9996] flex flex-col items-center relative group">
+          <img src={buytokenimg1} className="w-[80%]" alt="" />
+          <div className="flex flex-col items-center absolute gap-6 bottom-8">
+            <img src={soul} alt="" />
+            <h2 className="text-2xl text-center px-20">S, the Unrestrained</h2>
+            <div className="w-[80%] border-2 border-white glow-button rounded-full py-3 text-center font-semibold text-xl hidden group-hover:block hover:text-[#0a9996]">
+              button
+            </div>
+          </div>
+        </div>
+        <div className="nftcardborder2 border-white hover:border-[#0a9996] flex flex-col items-center relative group">
+          <img src={buytokenimg1} className="w-[80%]" alt="" />
+          <div className="flex flex-col items-center absolute gap-6 bottom-8">
+            <img src={soul} alt="" />
+            <h2 className="text-2xl text-center px-20">S, the Unrestrained</h2>
+            <div className="w-[80%] border-2 border-white glow-button rounded-full py-3 text-center font-semibold text-xl hidden group-hover:block hover:text-[#0a9996]">
+              button
+            </div>
+          </div>
+        </div>
+        <div className="nftcardborder2 border-white hover:border-[#0a9996] flex flex-col items-center relative group">
+          <img src={buytokenimg1} className="w-[80%]" alt="" />
+          <div className="flex flex-col items-center absolute gap-6 bottom-8">
+            <img src={soul} alt="" />
+            <h2 className="text-2xl text-center px-20">S, the Unrestrained</h2>
+            <div className="w-[80%] border-2 border-white glow-button rounded-full py-3 text-center font-semibold text-xl hidden group-hover:block hover:text-[#0a9996]">
+              button
+            </div>
+          </div>
+        </div>
+        <div className="nftcardborder2 border-white hover:border-[#0a9996] flex flex-col items-center relative group">
+          <img src={buytokenimg1} className="w-[80%]" alt="" />
+          <div className="flex flex-col items-center absolute gap-6 bottom-8">
+            <img src={soul} alt="" />
+            <h2 className="text-2xl text-center px-20">S, the Unrestrained</h2>
+            <div className="w-[80%] border-2 border-white glow-button rounded-full py-3 text-center font-semibold text-xl hidden group-hover:block hover:text-[#0a9996]">
+              button
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
   );
 };

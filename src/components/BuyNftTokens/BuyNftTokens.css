@@ -1,7 +1,7 @@
 .buytokenframe {
   width: 600px;
   height: 600px;
-  border-width: 1px;
+  border-width: 3px;
   border-style: solid;
   border-radius: 50px 10px 10px 10px;
   position: relative;
@@ -22,4 +22,13 @@
   top: 0;
   height: 100%;
   left: 0;
+}
+
+.nftcardborder2 {
+  width: 20%;
+  height: 600px;
+  border-width: 3px;
+  border-style: solid;
+  border-radius: 50px 10px 10px 10px;
+  position: relative;
 }
