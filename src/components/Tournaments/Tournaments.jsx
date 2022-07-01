@@ -28,7 +28,7 @@ const Tournaments = () => {
           className="absolute top-[20%] right-0 -mr-[12%]"
           alt=""
         />
-        <div className="w-4/5  bg-[#88511f6e] flex flex-col justify-center  rounded-3xl mx-auto mt-20 z-50 ">
+        <div className="w-4/5  bg-[#542f0d] flex flex-col justify-center  rounded-3xl mx-auto mt-20 z-50 ">
           <div className="flex flex-col justify-center items-center py-10">
             <div className="flex justify-center gap-6 items-center mx-auto  w-full">
               <div>

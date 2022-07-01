@@ -13,7 +13,7 @@ const Community = () => {
           FOR THE BEST INVESTMENT OPPORTUNITIES, JOIN OUR COMMUNITY
         </h2>
       </div>
-      <div className="flex justify-center gap-8 mt-20">
+      <div className="flex justify-center gap-4 mt-20 w-[90%]">
         <div className="flex flex-col justify-center gap-10 items-center border-r-2 border-dotted px-20">
           <div className="flex items-center justify-center gap-4">
             <div className="w-[50px] h-[50px] rounded-full border-2 border-white glow-button flex justify-center items-center">

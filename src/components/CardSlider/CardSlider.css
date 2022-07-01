@@ -1,0 +1,29 @@
+@import "~slick-carousel/slick/slick.css";
+@import "~slick-carousel/slick/slick-theme.css";
+
+.slick-dots li button:before {
+  color: #73f59b !important;
+  opacity: 1 !important;
+}
+
+.slick-dots li.slick-active button:before {
+  color: white !important;
+  opacity: 1 !important;
+}
+
+.slick-list {
+  padding-bottom: 56px;
+}
+
+@media screen and (max-width: 768px) {
+  .container .card {
+    margin: -40px 10px;
+  }
+}
+
+.dotted-spaced3 {
+  background-image: linear-gradient(to right, #fff 80%, #221f23 0%);
+  background-position: top;
+  background-size: 18px 3px;
+  background-repeat: repeat-x;
+}

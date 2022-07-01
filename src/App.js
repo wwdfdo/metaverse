@@ -15,6 +15,7 @@ import TwoMainImages from "./components/TwoMainImages/TwoMainImages";
 import VerificationSearch from "./components/VerificationSearch/VerificationSearch";
 import VideoImage from "./components/VideoImage/VideoImage";
 import QuestionSection from "./components/Questions/QuestionSection.jsx";
+import CardSlider from "./components/CardSlider/CardSlider.jsx";
 
 // import HeaderBg from "./components/HeaderBg/HeaderBg";
 
@@ -32,6 +33,7 @@ function App() {
         <ImageWithText />
         <VideoImage />
         <MagicRewards />
+        <CardSlider />
         <Team />
         <Advisors />
         {/* <Investors /> */}
