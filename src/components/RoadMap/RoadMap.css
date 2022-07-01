@@ -1,0 +1,9 @@
+span.bar::before {
+  content: "";
+  display: block;
+  width: 20px;
+  height: 20px;
+  border: 0.4rem solid white;
+  background-color: white;
+  border-radius: 50%;
+}

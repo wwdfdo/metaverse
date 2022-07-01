@@ -10,7 +10,7 @@ const EcosystemSlider = () => {
   const NextArrow = ({ onClick }) => {
     return (
       <div
-        className="arrow cursor-pointer absolute lg:-right-[4%] lg:block hidden bottom-[50%] z-10 text-[#73f59b] p-3 rounded-3xl bg-slate-100  hover:text-[#68edff] next text-md"
+        className="arrow cursor-pointer absolute lg:-right-[4%] lg:block hidden bottom-[50%] z-10 text-[#73f59b] p-4 rounded-3xl bg-[#0a9996]  hover:text-[#68edff] next text-md"
         onClick={onClick}
       >
         <FaArrowRight />
@@ -21,7 +21,7 @@ const EcosystemSlider = () => {
   const PrevArrow = ({ onClick }) => {
     return (
       <div
-        className="arrow cursor-pointer absolute bottom-[50%] lg:-left-[7%] lg:block hidden z-10 text-[#73f59b]  p-3 rounded-3xl bg-slate-100  hover:text-[#68edff] prev text-md"
+        className="arrow cursor-pointer absolute bottom-[50%] lg:-left-[7%] lg:block hidden z-10 text-[#73f59b]  p-4 rounded-3xl bg-[#0a9996]  hover:text-[#68edff] prev text-md"
         onClick={onClick}
       >
         <FaArrowLeft />

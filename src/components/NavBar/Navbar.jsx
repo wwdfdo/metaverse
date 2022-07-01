@@ -2,10 +2,11 @@ import React from "react";
 import Logo from "../Logo/Logo";
 import Cart from "../CartIcon/Cart";
 import { RiArrowDownSLine } from "react-icons/ri";
+import "./NavBar.css";
 
 const NavBar = () => {
   return (
-    <nav className=" flex w-3/4 justify-between mx-auto min-h-[64px] items-center ">
+    <nav className=" flex justify-between mx-auto items-center z-50 navcenter ">
       <div className="flex justify-between gap-12 items-center">
         <Logo />
         <ul className="flex gap-10">

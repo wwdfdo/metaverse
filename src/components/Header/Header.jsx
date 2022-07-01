@@ -9,8 +9,8 @@ const Header = () => {
     <header>
       <div>
         <NavBar />
-        <div className="w-3/5 mx-auto flex flex-col justify-center items-center py-20">
-          <img src={desktoplogo} className="w-[300px]" alt="" />
+        <div className="w-3/5 mx-auto flex flex-col justify-center items-center py-40">
+          <img src={desktoplogo} className="w-[30em]" alt="" />
           <h1 className="text-center tracking-wide leading-snug">
             METAVERSE P2E GAME
             <br />
@@ -21,7 +21,7 @@ const Header = () => {
             <div className=" border-2 glow-button border-white px-8 py-3  w-[200px] text-center rounded-3xl cursor-pointer font-semibold hover:text-[#55e2df]">
               Buy Arena NFTs
             </div>
-            <div className=" border-2 border-white px-8 py-3 w-[200px] text-center rounded-3xl cursor-pointer font-semibold hover:text-[#55e2df]">
+            <div className=" playbutton border-2 border-white px-8 py-3 w-[200px] text-center rounded-3xl cursor-pointer font-semibold hover:text-[#55e2df]">
               Play tailer{" "}
               <span>
                 {" "}

@@ -8,3 +8,7 @@ ul.submenuItem {
   border: 2px solid white;
   border-radius: 10px;
 }
+
+.playbutton:hover {
+  box-shadow: 0 5px 50px 0 #0a9996 inset, 0 5px 50px 0 #0a9996;
+}

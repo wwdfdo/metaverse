@@ -16,6 +16,7 @@ import VerificationSearch from "./components/VerificationSearch/VerificationSear
 import VideoImage from "./components/VideoImage/VideoImage";
 import QuestionSection from "./components/Questions/QuestionSection.jsx";
 import CardSlider from "./components/CardSlider/CardSlider.jsx";
+import RoadMap from "./components/RoadMap/RoadMap";
 
 // import HeaderBg from "./components/HeaderBg/HeaderBg";
 
@@ -40,6 +41,7 @@ function App() {
         <PassiveRevenue />
         <VerificationSearch />
         <QuestionSection />
+        <RoadMap />
       </div>
     </div>
   );
