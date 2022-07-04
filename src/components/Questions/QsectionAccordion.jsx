@@ -4,7 +4,7 @@ import { useState } from "react";
 const QsectionAccordion = ({ QuestionArray }) => {
   const [visibleAccordionId, setVisibleAccordionId] = useState(null);
   return (
-    <div className="w-full mx-auto justify-center flex flex-wrap gap-5">
+    <div className="w-full mx-auto justify-center items-center flex flex-col gap-5">
       {QuestionArray.map((Question) => (
         <div
           key={Question.id}
