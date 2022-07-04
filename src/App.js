@@ -17,6 +17,7 @@ import VideoImage from "./components/VideoImage/VideoImage";
 import QuestionSection from "./components/Questions/QuestionSection.jsx";
 import CardSlider from "./components/CardSlider/CardSlider.jsx";
 import RoadMap from "./components/RoadMap/RoadMap";
+import Footer from "./components/Footer/Footer";
 
 // import HeaderBg from "./components/HeaderBg/HeaderBg";
 
@@ -42,6 +43,7 @@ function App() {
         <VerificationSearch />
         <QuestionSection />
         <RoadMap />
+        <Footer />
       </div>
     </div>
   );

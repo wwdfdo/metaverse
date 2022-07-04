@@ -1,0 +1,32 @@
+export const FooterLinkArray = [
+  {
+    id: 1,
+    footerLinkHeading: "Overview",
+    footerLink1: "How to earn?",
+    footerLink2: "Team",
+    footerLink3: "Arena NFTs",
+    footerLink4: "Wizard NFTs",
+    footerLink5: "Shop",
+    footerLink6: "Partners program",
+    footerLink7: "Verify Wizardia links",
+    footerLink8: "Giveaways",
+    footerLink9: "About the game",
+  },
+  {
+    id: 2,
+    footerLinkHeading: "$WZRD Token",
+    footerLink1: "Staking",
+    footerLink2: "Tokonomics",
+    footerLink3: "Arena NFTs",
+    footerLink4: "Buy on CEX",
+    footerLink5: "Buy on DEX",
+    footerLink6: "Farm $WZRD",
+  },
+  {
+    id: 3,
+    footerLinkHeading: "Legal",
+    footerLink1: "Roadmap",
+    footerLink2: "Lightpaper",
+    footerLink3: "Wizardia Pitch Back",
+  },
+];
