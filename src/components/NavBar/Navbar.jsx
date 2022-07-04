@@ -3,103 +3,40 @@ import Logo from "../Logo/Logo";
 import Cart from "../CartIcon/Cart";
 import { RiArrowDownSLine } from "react-icons/ri";
 import "./NavBar.css";
+import { navItems } from "../../arrays/navItems";
 
 const NavBar = () => {
   return (
-    <nav className=" flex justify-between mx-auto items-center z-50 navcenter ">
-      <div className="flex justify-between gap-12 items-center">
-        <Logo />
-        <ul className="flex gap-10">
-          <li className="relative menuItem">
-            <a href="#" className="hover:text-[#0a9996] group">
-              About
-              <RiArrowDownSLine className="text-2xl text-white ml-2 inline-block group-hover:text-[#0a9996]" />
-            </a>
-            <ul className="absolute text-white py-5 pl-5 gap-4 w-[140px] hidden submenuItem">
-              <li>
-                <a href="">item one</a>
+    <div className="w-full min-h-[100px] flex items-center fixed justify-center text-center z-50">
+      <nav className=" flex justify-between mx-auto items-center  navcenter ">
+        <div className="flex justify-between gap-12 items-center">
+          <Logo />
+          <ul className="flex gap-10">
+            {navItems.map((navItem) => (
+              <li key={navItem.id} className="relative menuItem">
+                <a href="#" className="hover:text-[#0a9996] group">
+                  {navItem.menuItem}
+                  <RiArrowDownSLine className="text-2xl text-white ml-2 inline-block group-hover:text-[#0a9996]" />
+                </a>
+                <ul className="absolute text-white py-5 pl-5 gap-4 w-[140px] hidden submenuItem">
+                  <li>
+                    <a href="">{navItem.subMenuItem1}</a>
+                  </li>
+                  <li>
+                    <a href="">{navItem.subMenuItem2}</a>
+                  </li>
+                  <li>
+                    <a href="">{navItem.subMenuItem2}</a>
+                  </li>
+                </ul>
               </li>
-              <li>
-                <a href="">item two</a>
-              </li>
-              <li>
-                <a href="">item Three</a>
-              </li>
-            </ul>
-          </li>
-          <li className="relative menuItem">
-            <a href="#" className="hover:text-[#0a9996] group">
-              Tournaments
-              <RiArrowDownSLine className="text-2xl text-white ml-2 inline-block group-hover:text-[#0a9996]" />
-            </a>
-            <ul className="absolute  text-white py-5 pl-5 gap-4 w-[140px] hidden submenuItem">
-              <li>
-                <a href="">item one</a>
-              </li>
-              <li>
-                <a href="">item two</a>
-              </li>
-              <li>
-                <a href="">item Three</a>
-              </li>
-            </ul>
-          </li>
-          <li className="relative menuItem">
-            <a href="#" className="hover:text-[#0a9996] group">
-              Buy NFTs
-              <RiArrowDownSLine className="text-2xl text-white ml-2 inline-block group-hover:text-[#0a9996]" />
-            </a>
-            <ul className="absolute text-white py-5 pl-5 gap-4 w-[140px] hidden submenuItem">
-              <li>
-                <a href="">item one</a>
-              </li>
-              <li>
-                <a href="">item two</a>
-              </li>
-              <li>
-                <a href="">item Three</a>
-              </li>
-            </ul>
-          </li>
-          <li className="relative menuItem">
-            <a href="#" className="hover:text-[#0a9996] group">
-              $WZRD Token
-              <RiArrowDownSLine className="text-2xl text-white ml-2 inline-block group-hover:text-[#0a9996]" />
-            </a>
-            <ul className="absolute  text-white py-5 pl-5 gap-4 w-[140px] hidden submenuItem">
-              <li>
-                <a href="#">item one</a>
-              </li>
-              <li>
-                <a href="#">item two</a>
-              </li>
-              <li>
-                <a href="#">item Three</a>
-              </li>
-            </ul>
-          </li>
-          <li className="relative menuItem">
-            <a href="#" className="hover:text-[#0a9996] group">
-              Patners
-              <RiArrowDownSLine className="text-2xl text-white ml-2 inline-block group-hover:text-[#0a9996]" />
-            </a>
-            <ul className="absolute text-white py-5 pl-5 gap-4 w-[140px] hidden submenuItem">
-              <li>
-                <a href="#">item one</a>
-              </li>
-              <li>
-                <a href="#">item two</a>
-              </li>
-              <li>
-                <a href="#">item Three</a>
-              </li>
-            </ul>
-          </li>
-        </ul>
-      </div>
+            ))}
+          </ul>
+        </div>
 
-      <Cart />
-    </nav>
+        <Cart />
+      </nav>
+    </div>
   );
 };
 

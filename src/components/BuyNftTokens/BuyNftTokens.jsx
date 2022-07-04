@@ -1,12 +1,7 @@
 import React from "react";
 import "./BuyNftTokens.css";
 import buytokenimg from "../../images/image6.webp";
-import petro1 from "../../images/1-legendary-petro.webp";
-import buytokenimg1 from "../../images/buytokenimg1.webp";
-import buytokenimg2 from "../../images/buytokenimg2.webp";
-import buytokenimg3 from "../../images/buytokenimg3.webp";
-import buytokenimg4 from "../../images/buytokenimg4.webp";
-import soul from "../../images/soul.svg";
+import { buyNftTokens } from "../../arrays/buyNftTokensArray";
 
 const BuyNftTokens = () => {
   return (
@@ -84,46 +79,26 @@ const BuyNftTokens = () => {
         </div>
       </div>
       <div className="flex justify-center gap-6 w-full">
-        <div className="nftcardborder2 border-white hover:border-[#0a9996] flex flex-col items-center relative group">
-          <img src={buytokenimg1} className="w-[80%]" alt="" />
-          <div className="flex flex-col items-center absolute gap-6 bottom-8">
-            <img src={soul} alt="" />
-            <h2 className="text-2xl text-center px-20">S, the Unrestrained</h2>
-            <div className="w-[80%] border-2 border-white glow-button rounded-full py-3 text-center font-semibold text-xl hidden group-hover:block hover:text-[#0a9996]">
-              button
+        {buyNftTokens.map((buyNftToken) => (
+          <div
+            key={buyNftToken.id}
+            className="nftcardborder2 border-white hover:border-[#0a9996] flex flex-col items-center relative group"
+          >
+            <img src={buyNftToken.buynfttokenImg} className="w-[80%]" alt="" />
+            <div className="flex flex-col items-center absolute gap-6 bottom-8">
+              <img src={buyNftToken.buyNftIconImg} alt="" />
+              <h2 className="text-2xl text-center px-20">
+                {buyNftToken.buynfttokenTitle}
+              </h2>
+              <p className="text-center text-xl font-semibold">
+                {buyNftToken.buynfttokenPrice}
+              </p>
+              <div className="w-[80%] border-2 border-white glow-button rounded-full py-3 text-center font-semibold text-xl hidden group-hover:block hover:text-[#0a9996]">
+                button
+              </div>
             </div>
           </div>
-        </div>
-        <div className="nftcardborder2 border-white hover:border-[#0a9996] flex flex-col items-center relative group">
-          <img src={buytokenimg1} className="w-[80%]" alt="" />
-          <div className="flex flex-col items-center absolute gap-6 bottom-8">
-            <img src={soul} alt="" />
-            <h2 className="text-2xl text-center px-20">S, the Unrestrained</h2>
-            <div className="w-[80%] border-2 border-white glow-button rounded-full py-3 text-center font-semibold text-xl hidden group-hover:block hover:text-[#0a9996]">
-              button
-            </div>
-          </div>
-        </div>
-        <div className="nftcardborder2 border-white hover:border-[#0a9996] flex flex-col items-center relative group">
-          <img src={buytokenimg1} className="w-[80%]" alt="" />
-          <div className="flex flex-col items-center absolute gap-6 bottom-8">
-            <img src={soul} alt="" />
-            <h2 className="text-2xl text-center px-20">S, the Unrestrained</h2>
-            <div className="w-[80%] border-2 border-white glow-button rounded-full py-3 text-center font-semibold text-xl hidden group-hover:block hover:text-[#0a9996]">
-              button
-            </div>
-          </div>
-        </div>
-        <div className="nftcardborder2 border-white hover:border-[#0a9996] flex flex-col items-center relative group">
-          <img src={buytokenimg1} className="w-[80%]" alt="" />
-          <div className="flex flex-col items-center absolute gap-6 bottom-8">
-            <img src={soul} alt="" />
-            <h2 className="text-2xl text-center px-20">S, the Unrestrained</h2>
-            <div className="w-[80%] border-2 border-white glow-button rounded-full py-3 text-center font-semibold text-xl hidden group-hover:block hover:text-[#0a9996]">
-              button
-            </div>
-          </div>
-        </div>
+        ))}
       </div>
     </div>
   );

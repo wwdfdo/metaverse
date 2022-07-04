@@ -6,10 +6,10 @@ const Tournaments = () => {
   return (
     <div className="py-20">
       <div className="relative bg-tournamentsBg bg-no-repeat max-w-[1200px] mx-auto h-[100vh]">
-        <div className="flex flex-col items-center pt-10">
+        <div className="flex flex-col items-center gap-2 pt-10">
           <p>WIZARDIA</p>
-          <h2>TOURNAMENTS</h2>
-          <p className="py-8">
+          <h2 className="text-6xl tracking-widest">TOURNAMENTS</h2>
+          <p className="py-8 text-2xl">
             Wizardia Tournaments will be launched soon! Battle with <br /> your
             Wizard NFTs and share a 100000 $WZRD prize pool{" "}
           </p>
@@ -29,9 +29,9 @@ const Tournaments = () => {
           alt=""
         />
         <div className="w-4/5  bg-[#542f0d] flex flex-col justify-center  rounded-3xl mx-auto mt-20 z-50 ">
-          <div className="flex flex-col justify-center items-center py-10">
-            <div className="flex justify-center gap-6 items-center mx-auto  w-full">
-              <div>
+          <div className="flex flex-col justify-center items-center gap-5 py-10">
+            <div className="flex justify-center gap-8 items-center mx-auto  w-full">
+              <div className="text-xl">
                 Notify me when <br /> Tournaments launch:
               </div>
               <div className="w-3/5 relative flex justify-between border-2 border-white py-0 px-0 rounded-full">
@@ -41,11 +41,11 @@ const Tournaments = () => {
                 ></input>
                 <input
                   type="submit"
-                  className="rounded-full text-white font-semibold text-xl glow-button border-l-[1px] border-l-white px-6 "
+                  className="rounded-full text-white font-semibold text-xl glow-button border-l-[1px] border-l-white px-8 m-1 "
                 ></input>
               </div>
             </div>
-            <p className="text-center mt-6">
+            <p className="text-center mt-6 text-xl">
               By signing up you agree with Privacy policy and Terms and
               conditions
             </p>

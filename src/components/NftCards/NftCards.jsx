@@ -1,11 +1,6 @@
 import React from "react";
-import petro1 from "../../images/1-legendary-petro.webp";
-import petro2 from "../../images/2-epic-petro.webp";
-import petro3 from "../../images/7-rare-petro.webp";
-import borderCircle1 from "../../images/prize-legendary-pointer1.svg";
-import borderCircle2 from "../../images/prize-epic-pointer2.svg";
-import borderCircle3 from "../../images/prize-rare-pointe3.svg";
 import "./NftCards.css";
+import { nftCards } from "../../arrays/nftCards";
 
 const NftCards = () => {
   return (
@@ -22,39 +17,25 @@ const NftCards = () => {
             Buy Arena NFTs to win
           </div>
         </div>
-        <div className="nftcardborder border-[#ffff00ba]">
-          <div className="text-center bg-[#f1f63b57] w-[120px] mx-auto mt-5 p-1 rounded-3xl">
-            <p>LEGENDARY</p>
+        {nftCards.map((nftcard) => (
+          <div
+            key={nftcard.id}
+            className={`${nftcard.nftCardBoderColor} nftcardborder`}
+          >
+            <div
+              className={`${nftcard.nftCardTitleBg} text-center w-[120px] mx-auto mt-5 p-1 rounded-3xl`}
+            >
+              <p>LEGENDARY</p>
+            </div>
+            <img src={nftcard.circleImg} className="nftcards" alt="" />
+            <img src={nftcard.profileImg} className="nftcards" alt="" />
+            <div className="cardText">
+              <p>{nftcard.nftCardText1}</p>
+              <h2 className="text-2xl">{nftcard.nftCardText2}</h2>
+            </div>
           </div>
-          <img src={borderCircle1} className="nftcards" alt="" />
-          <img src={petro1} className="nftcards" alt="" />
-          <div className="cardText">
-            <p>Worth $7777 each</p>
-            <h2 className="text-2xl">1 Legendary Petro</h2>
-          </div>
-        </div>
-        <div className="nftcardborder border-[#8d4aaa]">
-          <div className="text-center bg-[#8d4aaa5e] w-[120px] mx-auto mt-5 p-1 rounded-3xl">
-            <p>LEGENDARY</p>
-          </div>
-          <img src={borderCircle2} className="nftcards2" alt="" />
-          <img src={petro2} className="nftcards2" alt="" />
-          <div className="cardText">
-            <p>Worth $777 each</p>
-            <h2 className="text-2xl">2 Epic Petro</h2>
-          </div>
-        </div>
-        <div className="nftcardborder border-[#315ea5]">
-          <div className="text-center bg-[#315ea563] w-[120px] mx-auto mt-5 p-1 rounded-3xl">
-            <p>LEGENDARY</p>
-          </div>
-          <img src={borderCircle3} className="nftcards3" alt="" />
-          <img src={petro3} className="nftcards3" alt="" />
-          <div className="cardText">
-            <p>Worth $77 each</p>
-            <h2 className="text-2xl">7 rare Petro</h2>
-          </div>
-        </div>
+        ))}
+
         <div className="nftcardborder">
           <div className="text-center mt-20">
             <p className="py-3 text-2xl font-semibold glow-button w-[60px] h-[60px] mx-auto rounded-full border-2 border-white">
