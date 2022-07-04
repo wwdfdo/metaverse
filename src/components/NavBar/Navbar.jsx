@@ -7,7 +7,7 @@ import { navItems } from "../../arrays/navItems";
 
 const NavBar = () => {
   return (
-    <div className="w-full min-h-[100px] flex items-center fixed justify-center text-center z-50">
+    <div className="w-full min-h-[100px] flex items-center fixed justify-center text-center z-50 bg-gradient-to-b from-[#000000b8]">
       <nav className=" flex justify-between mx-auto items-center  navcenter ">
         <div className="flex justify-between gap-12 items-center">
           <Logo />
