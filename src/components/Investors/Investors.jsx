@@ -1,25 +1,100 @@
 import React from "react";
 import investor1 from "../../images/investor1.webp";
 import "./Investors.css";
+import ellipse from "../../images/ellipse.svg";
 
 const Investors = () => {
   return (
-    <div>
-      <div>
-        <h2 className="text-center ">Trusted by our investors</h2>
-      </div>
-      <div className="flex justify-center w-4/5 mx-auto">
-        <div className="dotted-spaced-right">
-          <img src={investor1} className="border-r-2 border-white" alt="" />
-        </div>
+    <div className="py-40">
+      <div className="relative">
+        <img
+          src={ellipse}
+          className="absolute top-0 -mt-20 left-[10%]"
+          alt=""
+        />
         <div>
-          <img src={investor1} alt="" />
+          <h2 className="text-center text-[4.2em] font-semibold py-20 ">
+            Trusted by our investors
+          </h2>
         </div>
-        <div>
-          <img src={investor1} alt="" />
-        </div>
-        <div>
-          <img src={investor1} alt="" />
+        <div className="flex justify-center flex-wrap w-4/5 mx-auto gap-10">
+          <div>
+            <img
+              src={investor1}
+              className="w-[20em] investor-glow rounded-full"
+              alt=""
+            />
+          </div>
+          <div>
+            <img
+              src={investor1}
+              className="w-[20em] investor-glow rounded-full"
+              alt=""
+            />
+          </div>
+          <div>
+            <img
+              src={investor1}
+              className="w-[20em] investor-glow rounded-full"
+              alt=""
+            />
+          </div>
+          <div>
+            <img
+              src={investor1}
+              className="w-[20em] investor-glow rounded-full"
+              alt=""
+            />
+          </div>
+          <div>
+            <img
+              src={investor1}
+              className="w-[20em] investor-glow rounded-full"
+              alt=""
+            />
+          </div>
+          <div>
+            <img
+              src={investor1}
+              className="w-[20em] investor-glow rounded-full"
+              alt=""
+            />
+          </div>
+          <div>
+            <img
+              src={investor1}
+              className="w-[20em] investor-glow rounded-full"
+              alt=""
+            />
+          </div>
+          <div>
+            <img
+              src={investor1}
+              className="w-[20em] investor-glow rounded-full"
+              alt=""
+            />
+          </div>
+          <div>
+            <img
+              src={investor1}
+              className="w-[20em] investor-glow rounded-full"
+              alt=""
+            />
+          </div>
+          <div>
+            <img
+              src={investor1}
+              className="w-[20em] investor-glow rounded-full"
+              alt=""
+            />
+          </div>
+          <div>
+            <img
+              src={investor1}
+              className="w-[20em] investor-glow rounded-full"
+              alt=""
+            />
+          </div>
         </div>
       </div>
     </div>

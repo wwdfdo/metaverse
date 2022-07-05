@@ -6,7 +6,7 @@ import Community from "./components/Community/Community";
 import Header from "./components/Header/Header";
 import ImageWithText from "./components/ImageWithText/ImageWithText";
 import Immerse from "./components/Immerse/Immerse";
-// import Investors from "./components/Investors/Investors";
+import Investors from "./components/Investors/Investors";
 import MagicRewards from "./components/MagicRewards/MagicRewards";
 import PassiveRevenue from "./components/PassiveRevenue/PassiveRevenue";
 import SecondSection from "./components/SecondSection/SecondSection";
@@ -38,7 +38,7 @@ function App() {
         <CardSlider />
         <Team />
         <Advisors />
-        {/* <Investors /> */}
+        <Investors />
         <PassiveRevenue />
         <VerificationSearch />
         <QuestionSection />
